@@ -11,11 +11,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://jgcarrasco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>first</title>
-      <link>https://jgcarrasco.github.io/tags/first/</link>
+      <title>diffusion</title>
+      <link>https://jgcarrasco.github.io/tags/diffusion/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://jgcarrasco.github.io/tags/first/</guid>
+      <guid>https://jgcarrasco.github.io/tags/diffusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generative</title>
+      <link>https://jgcarrasco.github.io/tags/generative/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://jgcarrasco.github.io/tags/generative/</guid>
       <description></description>
     </item>
     
