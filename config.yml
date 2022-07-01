@@ -3,6 +3,8 @@ title: jgcarrasco's Blog
 paginate: 5
 theme: PaperMod
 
+math: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false

@@ -9,6 +9,7 @@ author: "Jorge García Carrasco"
 showToc: true
 TocOpen: false
 draft: false
+math: true
 hidemeta: false
 comments: false
 description: "Desc Text."

@@ -5,6 +5,7 @@ date: 2020-09-15T11:30:03+00:00
 # aliases: ["/first"]
 tags: ["first"]
 author: "Me"
+math: true
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -35,6 +36,9 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+$$x = \sqrt{\pi}$$
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eu sem integer vitae justo eget magna fermentum iaculis. Quisque id diam vel quam elementum pulvinar etiam. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Etiam tempor orci eu lobortis elementum nibh. Arcu dictum varius duis at consectetur. Aliquam vestibulum morbi blandit cursus. Vitae semper quis lectus nulla at. Amet justo donec enim diam. Cras ornare arcu dui vivamus arcu felis. Placerat duis ultricies lacus sed turpis tincidunt. Ac felis donec et odio pellentesque. Ultrices tincidunt arcu non sodales neque.
 
 Faucibus interdum posuere lorem ipsum dolor. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Felis eget velit aliquet sagittis. Dignissim sodales ut eu sem integer vitae justo. Eget dolor morbi non arcu risus quis varius quam quisque. Consequat mauris nunc congue nisi vitae suscipit tellus. Massa enim nec dui nunc mattis enim ut tellus. Facilisis sed odio morbi quis commodo. Netus et malesuada fames ac turpis egestas integer eget. Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. In cursus turpis massa tincidunt dui ut. Ultricies leo integer malesuada nunc vel risus commodo viverra. Neque convallis a cras semper auctor neque vitae tempus quam. Donec massa sapien faucibus et molestie ac feugiat sed lectus. Morbi tempus iaculis urna id.
