@@ -37,4 +37,15 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
+# Resources
+
+- The annotated diffusion model (https://huggingface.co/blog/annotated-diffusion)
+
+- What are diffusion models? (https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+
+
+
 # Diffusion Models
+
+
+![name](/images/DPM.PNG)
