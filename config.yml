@@ -47,7 +47,7 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
+    favicon: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/b-button-blood-type_1f171-fe0f.png"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
     apple_touch_icon: "<link / abs url>"
@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Jaja salu2 \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my 🅱️log
 
   socialIcons:
     - name: twitter
