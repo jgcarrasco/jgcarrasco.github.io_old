@@ -1,5 +1,5 @@
 baseURL: "https://jgcarrasco.github.io/"
-title: ExampleSite
+title: jgcarrasco's Blog 
 paginate: 5
 theme: PaperMod
 
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: jgcarrasco's Blog
+  description: "Writing about things I learn"
+  keywords: [Blog, Portfolio, AI, ML, DL]
+  author: Jorge García Carrasco
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -53,13 +53,11 @@ params:
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: jgcarrasco's Blog
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -73,16 +71,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Jaja salu2 \U0001F44B"
     Content: Welcome to my blog
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/jgcarrasco42"
     - name: github
       url: "https://github.com/"
+    - name: linkedin
+      url: "https://linkedin.com/in/jgcarrasco"
 
   analytics:
     google:
@@ -98,7 +96,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/jgcarrasco/jgcarrasco.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -122,10 +120,6 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
