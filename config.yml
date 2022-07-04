@@ -1,5 +1,5 @@
 baseURL: "https://jgcarrasco.github.io/"
-title: jgcarrasco's Blog 
+title: jgcarrasco 
 paginate: 5
 theme: PaperMod
 
@@ -18,7 +18,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: jgcarrasco's Blog
+  title: jgcarrasco
   description: "Writing about things I learn"
   keywords: [Blog, Portfolio, AI, ML, DL]
   author: Jorge García Carrasco
@@ -47,11 +47,10 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/b-button-blood-type_1f171-fe0f.png"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16:  "/favicon-16x16.png"
+    favicon32x32:  "/favicon-32x32.png"
+    apple_touch_icon:  "/apple-touch-icon.png"
 
   label:
     text: "Home"
@@ -59,9 +58,9 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: jgcarrasco's Blog
+    title: jgcarrasco
     subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    imageUrl: "manny.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -73,14 +72,14 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Jaja salu2 \U0001F44B"
-    Content: Welcome to my 🅱️log
+    Title: "JGCARRASCO"
+    Content: The aim of this page is to post about interesting ideas and/or projects. My interests include anything to ML and DL, especially when working with images, physics, programming, graphics and random things that I find interesting.
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/jgcarrasco42"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/jgcarrasco"
     - name: linkedin
       url: "https://linkedin.com/in/jgcarrasco"
 
@@ -115,11 +114,11 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
