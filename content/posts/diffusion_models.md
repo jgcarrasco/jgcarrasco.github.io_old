@@ -37,7 +37,11 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Resources
+## Resources
+
+[1] Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., & Ganguli, S. (2015, June). Deep unsupervised learning using nonequilibrium thermodynamics. In International Conference on Machine Learning (pp. 2256-2265). PMLR.
+
+[2] Ho, J., Jain, A., & Abbeel, P. (2020). Denoising diffusion probabilistic models. Advances in Neural Information Processing Systems, 33, 6840-6851. 
 
 - The annotated diffusion model (https://huggingface.co/blog/annotated-diffusion)
 
@@ -45,7 +49,18 @@ editPost:
 
 
 
-# Diffusion Models
+## Diffusion Models
 
+Diffusion models are generative models which could be an interesting alternative to GANs, as we will see in this post. In fact, this kind of models are used on DALLE-2 to get astonishing results (https://openai.com/dall-e-2/) (https://www.reddit.com/r/dalle2/)
+
+The first diffusion model was presented in 2015 by Sohl-Dickstein [1]. The main idea, which was inspired by the statistical physics literature, consisted on **gradually adding noise** to the original sample until we get an easy, tractable distribution (typically a Gaussian), and then **learning the reverse process** in order to recover the original distribution. Therefore, If we are able to effectively model the reverse process with a DL model, we can sample from a simple, Gaussian distribution and iteratively denoise it to get a sample from the original distribution. 
+
+- Brief description about diffusion models: forward and reverse process, main idea
+
+- We will be focused mainly on the Ho paper
+
+- How to model with NN, the loss is just the KL divergence between gaussians
+
+- The reverse process is tractable when conditioned on x_o
 
 ![name](/images/DPM.PNG)
